@@ -7,13 +7,13 @@ class Landing extends Component {
         <div className="row">
           <div className="col s12 center-align">
             <h4>
-              <b>Get your dream job</b> learn from experienced developers in your local market {" "}
-              <span style={{ fontFamily: "monospace" }}>CODER'S EDGE</span> helps you connect with professionalsss
-              that will help you get your next high paying tech. job.
+              <b>Get your dream job at a top tech company</b>
+              <br/>
+              <span style={{ fontFamily: "monospace" }}>CODER'S EDGE</span> helps you connect with tech professionals
+              that can help you get your next tech dream job
             </h4>
             <p className="flow-text grey-text text-darken-1">
-              Get advice on technical interviews, resumes, portfolio from experienced, industry leading sofware engineers
-              in your area.
+              Need help with technical interviews, resumes, portfolio reviews from experienced, industry leading software engineers in your area.
             </p>
             <br />
             <div className="col s6">
