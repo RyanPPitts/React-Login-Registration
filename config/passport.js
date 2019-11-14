@@ -7,6 +7,7 @@ const opts = {};
 
 opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
 opts.secretOrKey = keys.secretOrKey;
+
 module.exports = passport => {
   passport.use(
     new JwtStrategy(opts, (jwt_payload, done) => {
@@ -21,6 +22,9 @@ module.exports = passport => {
     })
   );
 };
+
+// this finishes up our backend for the login and registration pages ... woot woot. 
+// test with postman using post and login routes/end points
 
 // What is passport-jwt: 
 //  This module lets you authenticate endpoints using a JSON web token. 
